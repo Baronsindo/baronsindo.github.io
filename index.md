@@ -35,3 +35,26 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+
+<form class="col-lg-6">
+    <legend>Legend</legend>
+    <div class="form-group">
+    <label for="text">Text : </label>
+    <input id="text" type="text" class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="textarea">Textarea : </label>
+    <textarea id="textarea" type="textarea" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+    <label for="select">Select : </label>
+    <select id="select" class="form-control">
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+    </select>
+    </div>
+    <button>Enter</button>
+</form>
