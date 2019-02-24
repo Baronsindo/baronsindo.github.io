@@ -1,283 +1,117 @@
-.navbar-brand {
-  height: 100%;
-  margin-right: 40px;
+@font-face {
+    font-family: Luna;
+    src: url('../fonts/BloggerSans.ttf');
 }
 
-.navbar {
-  margin-bottom: 0;
-  background-color: #2c3e50;
-  border: 0;
-  font-size: 20px !important;
-  border-radius: 0;
-  font-family: ubuntu;
-  border-bottom: 0.1px solid black;
+.customfont {
+    font-family: Luna
 }
 
-.navbar-nav {
-  margin-top: 20px;
-  color: #969fa8 !important;
+body {
+    background-color: #bdbdbd;
 }
 
-.DrppTxt {
-  font-size: 20px !important;
-  background-color: #2c3e50;
-  color: #777 !important;
-  font-family: ubuntu;
-}
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #1bbc9b !important;
-  background-color: #2c3e50!important;
-}
-
-.social {
-  margin-bottom: 5px;
-}
-
-.HeaderDis {
-  background-color: #1bbc9b;
-  padding-top: 120px;
-  padding-bottom: 30px;
-  position: relative;
-}
-
-.description {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.DiscTitle {
-  font-size: 60px;
-  font-family: "Ubuntu";
-  color: #ffffff;
-  font-weight: bold;
-  margin-top: 30px;
-}
-
-.DiscMini {
-  font-size: 25px;
-  font-family: "Ubuntu";
-  color: white;
-}
-
-.btn_Download {
-  background-color: #fc6a42;
-}
-
-.btn_feat {
-  background-color: #4466c9;
-}
-
-.btn_Download, .btn_feat {
-  font-size: 18px;
-  font-family: "Ubuntu";
-  font-weight: bold;
-  color: white;
-}
-
-.Program {
-  width: 100%;
-  display: block;
-  margin-left: 40px;
-}
-
-.ValuesSec {
-/*  margin: 20px 20px 20px 20px;*/
-}
-.abt{
-  background-color: #F5F5F5;
-}
-.Sectitle {
-  font-size: 20px;
-  font-family: "Ubuntu";
-  color: #2c3e50;
-  font-weight: bold;
-  margin-top: 100px;
-}
-
-.SecDiscTitle{
-  font-size: 20px;
-  font-family: "Ubuntu";
+.container {
+    background-color: white;
 
 }
 
-.SideIcons{
-  font-size: 200px;
-  color: #2c3e50;
-  margin-top: 100px;
-  text-align: center;
+.user {
+    height: 60%;
+    width: 60%;
 }
 
-.SerIcon{
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 60px;
-  color: #1bbc9b;
+.blogimg {
+    margin-top: 50px;
+    height: 220px;
+    width: 220px;
 }
 
-.Servicetitle {
-  font-size: 30px;
-  font-family: "Ubuntu";
-  color: #1bbc9b;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 30px;
+:hover.blogimg{
+    box-shadow: 0 6px 10px black;
+
 }
 
-.ServiceTxt {
-  font-size: 15px;
-  font-family: "Ubuntu";
-  color: #2c3e50;
-
-  margin-top: 30px;
+p {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
 }
 
-.col-md-4{
-  margin-bottom: 20px;
+h1 {
+    font-size: 150px;
+}
+
+.Lien{
+    border-bottom: 5px dotted;
+}
+
+.menu{
+color: black;
+font-size:  30px;
+margin-right: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+    
+    .Lien{
+        border-bottom: 5px dotted;
+    }
+    
+    .menu{
+    color: black;
+    font-size:  20px;
+    margin-right: 20px;
+    }
+  }
+
+
+h2 {
+    font-size: 60px
+}
+
+.abtme {
+
 }
 
 
 
 
-
-.NosOffreTxt {
-  font-size: 40px;
-  font-family: "Ubuntu";
-  color: #2bb3dd;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.lesofrs{
-background-color: #F5F5F5;
-
-}
-.panel-heading {
-  font-size: 20px;
-  font-family: "Ubuntu";
-    color: #fff !important;
-    background-color: #2bb3dd !important;
-    padding: 20px;
-    border-bottom: 1px solid transparent;
-
-}
-.panel-footer {
-    background-color: white !important;
-}
-.panel-footer h3 {
-    font-size: 32px;
-}
-.panel-footer h4 {
-    color: #aaa;
-    font-size: 14px;
-}
-.panel-footer .btn {
-    margin: 15px 0;
-    background-color:#2bb3dd;
-    color: #fff;
-}
-.panel {
-    border: 1px solid #2bb3dd;
-    border-radius:0 !important;
-    transition: box-shadow 0.5s;
-}
-.panel:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .4);
-}
-.panel-footer .btn:hover {
-    border: 1px solid #2bb3dd;
-    background-color: #fff !important;
-    color: #2bb3dd;
-}
-
-
-/*
-.navbar {
-
-}
-
-
-
-.body{
-  padding-top: 70px;
-}
-
-
-.bg
-{
-  background-image: url('http://bit.ly/2jvozod');
-  background-color: #648cff;
-  padding-bottom: 20Px;
-  background-repeat: no-repeat;
-}
-
-.navbar {
-    border: 0;
-    font-size: 25px;
-    font-family: ubuntu;
-    background-color: rgba(000,0,0,0.3);
-    border-bottom: 0.1px solid black;
-}
-
-
-.dropdown-menu{
-    margin-top: 20px;
-    color: #fff !important;
-}
-
-
-
-
-.DiscTitle {
-  font-size: 60px;
-  font-family: "Ubuntu";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  margin-top: 110px;
-}
-
-.DiscMini {
-  font-size: 25px;
-  font-family: "Ubuntu";
-  color: white;
-}
-
-
-
-
-*/
-
+/* #region Slideing */
 .slideanim {
-  visibility: hidden;
-}
-
-.slide {
-  animation-name: slide;
-  -webkit-animation-name: slide;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-  visibility: visible;
-}
-
-@keyframes slide {
-  0% {
-    opacity: 0;
-    transform: translateY(70%);
+    visibility: hidden;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
+  
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
   }
-}
-
-@-webkit-keyframes slide {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(70%);
+  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
   }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
+  
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
   }
-}
+/* #endregion*/
