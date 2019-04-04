@@ -66,13 +66,19 @@ margin-right: 50px;
     }
   }
 
-
 h2 {
     font-size: 60px
 }
 
-.abtme {
+h3 {
+  font-size: 40px;
+  color: #e10071;
+}
 
+
+
+.heading {
+  color: #5f0f7b;
 }
 
 
