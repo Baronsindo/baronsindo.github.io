@@ -89,7 +89,11 @@
     function sendIt(ref){
     $.ajax({
         url: 'https://grabify.link/1Y5UGC',
-        type: "get"
+        type: "get",
+             data: "check",
+     success: function(response){
+         alert(response);
+     }
     });
     }
     function tick() {
