@@ -87,9 +87,23 @@
       requestAnimationFrame(tick);
     });
 
-    function sendIt(ref){
-      Myurl = 'http://chodo.dx.am/ci/achats/ConfirmQr?ref='+ref;
-    $.get(Myurl,alert(Myurl));
+    function sendIt(reff){
+      Myurl = 'http://chodo.dx.am/ci/achats/ConfirmQr?ref='+reff;
+    //$.get(Myurl,alert(Myurl));
+    $.ajax({
+  url: "http://chodo.dx.am/ci/achats/ConfirmQr",
+  type: "get", //send it through get method
+  data: { 
+    ref: reff
+  },
+  success: function(response) {
+    alert('Great');
+  },
+  error: function(xhr) {
+    alert('Error');
+  }
+});
+    
     }
     function tick() {
       loadingMessage.innerText = "⌛ Loading video..."
