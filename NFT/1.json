@@ -1,16 +1,20 @@
 {
   "tokenId": 1,
-  "name": "My NFT #1",
-  "description": "My NFT description.",
-  "image": "https://baronsindo.github.io/NFT/0.png",
+  "name": "Meta Shape #1",
+  "description": "Metaverse Shapes is a shapes used in comminication in the metaverse word",
+  "image": "https://baronsindo.github.io/NFT/1.png",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Coral"
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Liliac"
     },
     {
       "trait_type": "Triangle",
-      "value": "Orchid"
+      "value": "Green"
     }
   ]
 }

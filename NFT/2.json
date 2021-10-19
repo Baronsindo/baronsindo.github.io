@@ -1,16 +1,12 @@
 {
   "tokenId": 2,
-  "name": "My NFT #2",
-  "description": "My NFT description.",
-  "image": "https://baronsindo.github.io/NFT/0.png",
+  "name": "Meta Shape #2",
+  "description": "Metaverse Shapes is a shapes used in comminication in the metaverse word",
+  "image": "https://baronsindo.github.io/NFT/2.png",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Baby Purple"
-    },
-    {
-      "trait_type": "Square",
-      "value": "Spring"
+      "value": "Robin"
     }
   ]
 }

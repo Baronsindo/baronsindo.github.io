@@ -1,0 +1,20 @@
+{
+  "tokenId": 89,
+  "name": "Meta Shape #89",
+  "description": "Metaverse Shapes is a shapes used in comminication in the metaverse word",
+  "image": "https://baronsindo.github.io/NFT/89.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Butter"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Pumpkin"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Brick"
+    }
+  ]
+}

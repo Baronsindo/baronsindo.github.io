@@ -1,0 +1,12 @@
+{
+  "tokenId": 45,
+  "name": "Meta Shape #45",
+  "description": "Metaverse Shapes is a shapes used in comminication in the metaverse word",
+  "image": "https://baronsindo.github.io/NFT/45.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Coral"
+    }
+  ]
+}
