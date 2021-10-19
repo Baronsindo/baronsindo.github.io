@@ -2,7 +2,7 @@
   "tokenId": 0,
   "name": "My NFT #0",
   "description": "My NFT description.",
-  "image": "https://base-uri-to-my-nft-images.com/0.png",
+  "image": "https://baronsindo.github.io/NFT/0.png",
   "attributes": [
     {
       "trait_type": "Background",
