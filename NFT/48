@@ -1,0 +1,12 @@
+{
+  "tokenId": 48,
+  "name": "My NFT #48",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/48.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mint"
+    }
+  ]
+}

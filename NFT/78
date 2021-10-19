@@ -1,0 +1,20 @@
+{
+  "tokenId": 78,
+  "name": "My NFT #78",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/78.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Baby Purple"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Spring"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Green"
+    }
+  ]
+}

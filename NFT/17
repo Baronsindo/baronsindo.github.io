@@ -1,0 +1,20 @@
+{
+  "tokenId": 17,
+  "name": "My NFT #17",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/17.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Bright Coral"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Green"
+    }
+  ]
+}

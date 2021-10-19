@@ -1,0 +1,16 @@
+{
+  "tokenId": 22,
+  "name": "My NFT #22",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/22.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Liliac"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "tokenId": 11,
+  "name": "My NFT #11",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/11.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Robin"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Liliac"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Orchid"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tokenId": 54,
+  "name": "My NFT #54",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/54.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Robin"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Orchid"
+    }
+  ]
+}

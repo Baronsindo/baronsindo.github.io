@@ -1,0 +1,16 @@
+{
+  "tokenId": 18,
+  "name": "My NFT #18",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/18.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Butter"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Pumpkin"
+    }
+  ]
+}

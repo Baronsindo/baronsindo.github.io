@@ -1,0 +1,20 @@
+{
+  "tokenId": 27,
+  "name": "My NFT #27",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/27.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Butter"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Pumpkin"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Brick"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "tokenId": 13,
+  "name": "My NFT #13",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/13.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Liliac"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Teal"
+    }
+  ]
+}

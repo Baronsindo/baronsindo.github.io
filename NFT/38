@@ -1,0 +1,12 @@
+{
+  "tokenId": 38,
+  "name": "My NFT #38",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/38.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Coral"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tokenId": 82,
+  "name": "My NFT #82",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/82.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Baby Purple"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Bright Coral"
+    }
+  ]
+}

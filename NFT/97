@@ -1,0 +1,20 @@
+{
+  "tokenId": 97,
+  "name": "My NFT #97",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/97.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Spring"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Orchid"
+    }
+  ]
+}

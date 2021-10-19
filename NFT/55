@@ -1,0 +1,20 @@
+{
+  "tokenId": 55,
+  "name": "My NFT #55",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/55.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mint"
+    },
+    {
+      "trait_type": "Square",
+      "value": "Bright Coral"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Green"
+    }
+  ]
+}

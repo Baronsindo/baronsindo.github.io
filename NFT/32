@@ -1,0 +1,16 @@
+{
+  "tokenId": 32,
+  "name": "My NFT #32",
+  "description": "My NFT description.",
+  "image": "https://base-uri-to-my-nft-images.com/32.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Robin"
+    },
+    {
+      "trait_type": "Triangle",
+      "value": "Brick"
+    }
+  ]
+}
